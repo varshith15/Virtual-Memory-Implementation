@@ -1,0 +1,11 @@
+-> Assuming to kill the process if there is no space left in Virtual Memory while swapping out
+
+-> Considering each file will be loaded only once
+
+-> If the process is Unable to fit in Main memory even after all the process are removed then the process is left in Virtual Memory without running
+
+-> Performing operations only if all three memory adress given are valid
+
+-> Assumed page frames in Virtual Meomry just for code convience
+
+-> When a process is killed the values in the main memory when they are run are left as grabage values and are replaced if the same address is requested
